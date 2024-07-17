@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Signika:wght@300..700&display=swap');
+body{
+    height: 100vh;
+    background-image: linear-gradient(purple,pink,white);
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.container{
+    max-width: 985px;
+   /* background-color: blueviolet; */
+    color: white;
+    margin: auto;
+    height: 60vh;
+    border: 2px solid black;
+    padding: 33px;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: auto;
+    margin-bottom: 23px;
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    border-radius: 15px;
+}
+.message{
+  width: 24%;
+  padding: 10px;
+  margin: 17px 17px;
+  border: 2px solid black;
+  border-radius:10px;
+}
+ 
+#send-container{
+    display: block;
+    margin: auto;
+    max-width: 985px;
+    text-align: center;
+    width: 100%;
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+
+}
+#msg-inp{
+width: 80%;
+border: 2px solid black;
+border-radius: 5px;
+height: 34px;
+font-family: "Exo 2", sans-serif;
+font-optical-sizing: auto;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 15px;
+    color: white;
+    background-color: blueviolet;
+    
+}
+.left{
+    background-color: gray;
+    color: white;
+    float: left;
+     clear: both;
+ }
+
+.right{
+    color: white;
+    background-color:forestgreen;
+    float: right;
+    clear: both;
+}

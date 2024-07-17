@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset ="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kchat</title>
+    <script defer src="http://localhost:8002/socket.io/socket.io.js"></script>
+    
+    <!-- <script src="http://localhost:8000/socket.io/socket.io.js"></script> -->
+    <script defer src="Client.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+    <!-- <script src="node server/indexjs.js"></script> -->
+</head>
+<body>
+    <nav>
+        <img src="chat.png" alt="" class="logo">
+        <h1>Welecome to KDiscuss chat</h1>
+        </nav>
+    <div class="container"></div>
+    <div class="send">
+        <form action="#" id="send-container">
+                <input type="text" name="msg-inp" id="msg-inp"/>
+                <button class="btn" type="submit">send</button>
+                <!-- <audio id="audioElement" src="audio.mp3"></audio> -->
+        </form>
+    </div>
+</body>
+</html>
