@@ -10,6 +10,3 @@ yarn-error.log
 
 .env
 
-# Operating system files
-.DS_Store
-Thumbs.db
